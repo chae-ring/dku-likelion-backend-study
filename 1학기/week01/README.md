@@ -1,4 +1,4 @@
-# Method & ArrayList 정리
+# 1학기 1주차: 메서드와 ArrayList
 
 ## 개요
 Java에서 **함수(Method)**는 특정 기능을 수행하는 코드 묶음이며,  

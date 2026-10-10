@@ -1,5 +1,3 @@
-package week04.src;
-
 public class BankAccount {
 
     // 멤버변수

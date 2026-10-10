@@ -1,5 +1,3 @@
-package week04.src;
-
 import java.util.ArrayList;
 
 public class ExceptionExample {

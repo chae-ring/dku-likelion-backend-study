@@ -131,10 +131,6 @@ private ArrayList<Todo> todos;
 
 삭제한 번호는 다시 사용하지 않고 새로운 Todo에는 다음 ID가 부여됩니다.
 
-### 실제 실행 화면
-
-![Todo 실행 화면](./images/todo-demo.png)
-
 ---
 
 ## 6. 핵심 코드

@@ -188,7 +188,6 @@ private Book findBook(Long id) {
 
 Postman을 이용해 각 API가 정상적으로 동작하는지 확인할 수 있습니다.
 
-![Postman 실행 결과](postman.png)
 
 - POST `/books`
 - GET `/books`

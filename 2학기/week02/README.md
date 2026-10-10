@@ -409,7 +409,6 @@ todos.add(todo);
 
 실행 결과:
 
-![Todo 추가](./images/add.png)
 
 응답 예시:
 
@@ -441,7 +440,6 @@ public List<Todo> getTodos() {
 
 실행 결과:
 
-![Todo 전체 조회](./images/get.png)
 
 Java의 `List<Todo>`가 JSON 배열 형태로 변환되어 응답되는 것을 확인했습니다.
 
@@ -474,7 +472,6 @@ URL의 `3`이라는 값을 `@PathVariable`을 이용해 `id`에 전달합니다.
 
 실행 결과:
 
-![Todo 단건 조회](./images/path.png)
 
 ```text
 /todos/3
@@ -509,7 +506,6 @@ return removed;
 
 실행 결과:
 
-![Todo 삭제](./images/remove.png)
 
 ### 삭제 후 조회
 
@@ -521,7 +517,6 @@ GET /todos
 
 요청을 보내 1번 Todo가 삭제된 것을 확인했습니다.
 
-![Todo 삭제 후 조회](./images/get_1remove.png)
 
 ---
 
@@ -553,7 +548,6 @@ todo.setBody(body);
 
 실행 결과:
 
-![Todo 수정](./images/modify.png)
 
 ### 수정 후 조회
 
@@ -565,7 +559,6 @@ GET /todos
 
 요청을 보내 3번 Todo의 내용이 변경된 것을 확인했습니다.
 
-![Todo 수정 후 조회](./images/get_modify.png)
 
 ---
 
@@ -637,7 +630,6 @@ surls.add(surl);
 
 실행 결과:
 
-![URL 등록](./images/demo03_add.png)
 
 응답에는 생성된 Surl의 정보가 JSON 형태로 표시됩니다.
 
@@ -701,7 +693,6 @@ redirect
 
 실행 결과:
 
-![URL Redirect](./images/redirect.png)
 
 ---
 
@@ -719,16 +710,6 @@ week02/
 ├── demo03/
 │   └── URL 단축 서비스
 │
-└── images/
-    ├── add.png
-    ├── get.png
-    ├── path.png
-    ├── remove.png
-    ├── get_1remove.png
-    ├── modify.png
-    ├── get_modify.png
-    ├── demo03_add.png
-    └── redirect.png
 ```
 
 ---

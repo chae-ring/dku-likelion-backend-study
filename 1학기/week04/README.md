@@ -50,9 +50,7 @@
 - Spring Data JPA
     - 객체 중심 데이터베이스 연동 지원
 
-### Spring Initializr 설정 화면
-
-![spring-initializr](./images/spring-initializr.png)
+Spring Initializr에서 필요한 의존성을 선택해 프로젝트 뼈대를 생성합니다.
 
 ---
 
@@ -111,7 +109,6 @@
 - Postman을 이용하여 상품 데이터를 생성하였다.
 - JSON 형식의 데이터를 Body에 담아 POST 요청을 전송하였다.
 
-![postman-post](./images/postman-post.png)
 
 ---
 
@@ -119,7 +116,6 @@
 - 다른 상품 데이터도 추가로 저장하며 API 동작을 확인하였다.
 - HTTP 상태 코드 200 OK를 통해 정상 요청 여부를 확인하였다.
 
-![postman-post2](./images/postman-post2.png)
 
 ---
 
@@ -127,7 +123,6 @@
 - GET 요청을 통해 특정 ID의 상품 데이터를 조회하였다.
 - 저장된 상품 정보가 JSON 형태로 반환되는 것을 확인하였다.
 
-![postman-get](./images/postman-get1.png)
 
 ---
 
@@ -135,7 +130,6 @@
 - H2 Console에서 products 테이블 데이터를 확인하였다.
 - Postman으로 저장한 데이터가 실제 데이터베이스에 저장되는 것을 확인할 수 있었다.
 
-![h2-database](./images/h2.png)
 
 ---
 
